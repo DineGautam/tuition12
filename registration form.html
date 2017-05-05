@@ -1,0 +1,238 @@
+<html>
+<style type="text/css">
+div{
+width: 100px;
+}
+.form-style-6{
+    font: 80% Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #A67676;
+	width: 100%;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+	margin : 0 250px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+   background-color: white;
+    margin : 2px 350px;
+    padding: 12px 10px;
+    border: 1px solid #000;
+    width: 30%;
+	height: 10%;
+}
+
+/* The Close Button */
+.close {
+    color: grey;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+button
+{
+margin: 1px 420px;
+color: white;
+background-color : grey;
+width : 10%;
+padding : 8px 8px;
+border-radius: 8px;
+}
+
+.form-style-6 h1{
+    background: #123456;
+    padding: 20px 0;
+    font-size: 150%;
+    font-weight: 300;
+    text-align: center;
+    color: #eff;
+    margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 1%;
+    border: 1px solid #ccc;
+    padding: 1%;
+    color: black;
+    font: 90% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+    box-shadow: 0 0 4px #43D1AF;
+    padding: 5%;
+    border: 5px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 12%;
+    padding: 0.7%;
+    background: pink;
+    border-bottom: 1px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    text-align : centre;
+    border-left-style: none;    
+    color: #cff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+    background: #2EBF99;
+}
+a:link, a:visited {
+    background-color: grey;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float : right;
+	border-radius: 8px;
+}
+
+
+a:hover, a:active {
+    background-color: cyan;
+}
+</style>
+<body>
+
+<div class="form-style-6">
+<h1>Application Form</h1>
+<a href="file:///C:/Users/Admin/Desktop/course.html/testcourse.html#/home.html" target="_blank">GO BACK</a>
+<form action="demo_form.asp">
+<label><b>First Name</b></label>
+<br><br>
+    <input type="text" placeholder="Enter First name" name="fname" required>
+<br>
+<label><b>Last Name</b></label>
+<br><br>
+    <input type="text" placeholder="Enter Last name" name="lname" required>
+<br>
+<label><b>Gender</b></label>
+<br><br>
+  <input type="radio" name="gender" value="male" > Male
+  <input type="radio" name="gender" value="female"> Female<br>
+  <br>
+	
+<label><b>Father's Name</b></label>
+<br><br>
+    <input type="text" placeholder="Enter Father's name" name="ftname" required>
+	<br>
+<label><b>Date of birth</b></label>
+<br><br>
+    <input type="text" placeholder="Enter DateOfBirth" name="dob" required>
+	<br>
+	
+
+
+<label><b>Phone Number</b></label>
+<br><br>
+    <input type="text" placeholder="Enter Phone Number" name="phoneno" required>
+	<br>
+<label><b>E-Mail ID</b></label>
+<br><br>
+    <input type="text" placeholder="Enter Mail-ID" name="mailid" required>
+<br>
+
+
+
+
+
+<label><b>Permanent Address</b></label>
+<br><br>
+<textarea name="field3" placeholder="Permanent Address" required></textarea>
+<br>
+<label><b>Temporary Address</b></label>
+<br><br>
+<textarea name="field3" placeholder="Temporary Address" required></textarea>
+<br>
+
+  
+<a href="file:///C:/Users/Admin/Desktop/course.html/testcourse.html#/home.html" target="_blank">CANCEL</a>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">SUBMIT</button>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+    <p> Submitted Successfully...!</p>
+	<p> Click "GO BACK"</p>
+  </div></div><script>
+// Get the modal
+var modal = document.getElementById('myModal');
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }}</script></form></div></form></div></body></html>
